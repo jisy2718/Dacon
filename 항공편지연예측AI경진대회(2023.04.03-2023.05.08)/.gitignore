@@ -1,3 +1,5 @@
 *submission*
 *.csv
 *.parquet
+data/
+submission/
