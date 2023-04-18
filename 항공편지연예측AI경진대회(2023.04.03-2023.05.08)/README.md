@@ -2,7 +2,6 @@
 
 
 
-<<<<<<< HEAD
 ### 제출결과
 
 + tval LogLoss 기준 값(리더보드값)
@@ -12,7 +11,7 @@
 | 베이스모델                  | (1.1568) | (1.1494)                                                   |           |                                |                                |      |      |      |      |
 | lgbm<br />+ grid            |          | 0.4395(1.1430)<br />0.4391(1.1403)<br />**0.4379(1.1400)** |           | 0.4381()                       |                                |      |      |      |      |
 | lgbm <br />+ 베이지안최적화 |          |                                                            |           | 0.4394<br />()<br />sb_lb5.csv | <br />(1.1530)<br />sb_lb3.csv |      |      |      |      |
-|                             |          |                                                            |           |                                |                                |      |      |      |      |
+| xgboost<br />+ grid         |          |                                                            |           | 0.4384(1.1424)<br />sb_xb2.csv |                                |      |      |      |      |
 |                             |          |                                                            |           |                                |                                |      |      |      |      |
 
 
@@ -37,8 +36,8 @@
 
 
 
-=======
->>>>>>> 89cd5b6b26708a3873dead06ca8c52f08e9d37ca
+
+
 ### Loss
 
 + Log Loss 이용
@@ -53,7 +52,7 @@
     + $p_i$ 는 $y=1$ 일 확률
 
 
-<<<<<<< HEAD
+
 
 
 
@@ -77,14 +76,6 @@
 4. [lbgm적합](./LGBM적합후제출.ipynb)
    + grid search와 bayesian opt 이용해서 최적화
 
+5. [xgboost적합](./model_xgboost.ipynb)
+   + grid search와 계층적cv 이용
 
-
-=======
-### 파일
-1. [베이스코드따라하기.ipynb](./베이스코드따라하기.ipynb)
-    + 베이스코드 따라서 RandomForestClassifier 이용
-2. [베이스코드따라하기_결측치처리방식변경.ipynb](./베이스코드따라하기_결측치처리방식변경.ipynb)
-    + 결측치 처리 방식 변경
-3. [ML모델구축.ipynb](./ML모델구축.ipynb)
-    + 여러 ML 모델 비교 후, 최적 모델 lgbm 이용 + grid search로 파라미터튜닝
->>>>>>> 89cd5b6b26708a3873dead06ca8c52f08e9d37ca
