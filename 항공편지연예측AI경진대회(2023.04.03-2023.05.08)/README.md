@@ -52,6 +52,8 @@
 
 + 결측치 예측 안한 것이 더 좋게 나옴
 
+7 : 2 + vae로 semi-supervised learning + validation set 만들어서 평가
+
 
 
 
@@ -59,7 +61,9 @@
 
 
 
+### semi-supervised learning
 
++ https://sanghyu.tistory.com/177 참고
 
 
 
