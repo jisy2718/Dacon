@@ -52,7 +52,11 @@
 
 + 결측치 예측 안한 것이 더 좋게 나옴
 
-7 : 2 + vae로 semi-supervised learning + validation set 만들어서 평가
+7 : 2 + vae로 semi-supervised learning + validation set 만들어서 평가 + `DataLoader` 이용
+
++ train set을 한 번에 onehotencoding 하면, 메모리가 터져서`DataLoader` 이용해서 진행하려고 했지만, batch를 가져오는데 시간이 너무 오래걸려서 `DataLoader` 없이 배치를 만들기로 하고 8번으로 넘어감
+
+8 : 2  + vae로 semi-supervised learning + validation set 만들어서 평가 + batch를 직접 생성해서 신경망 훈련
 
 
 
@@ -89,7 +93,7 @@
 
 1. 전처리 파일들
 
-   + [2](./전처리방법2.ipynb), [2-1](./전처리방법2-1.ipynb), [2-2](./전처리방법2-2.ipynb), [2-3](./전처리방법2-3.ipynb)
+   + [2](./전처리방법2.ipynb), [2-1](./전처리방법2-1.ipynb), [2-2](./전처리방법2-2.ipynb), [2-3](./전처리방법2-3.ipynb), [7](./전처리방법7.ipynb), [8](./전처리방법8.ipynb)
 
      
 
